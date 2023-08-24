@@ -1,0 +1,298 @@
+
+
+.previewContainer {
+    background-color: rgb(78 113 239);
+    color: white;
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.previewItems{
+    width: 100%;
+    max-width: 1024px;
+    margin: 45px 0px;
+    height: 80px;
+    /* border: 1px solid red; */
+    /* border-radius: 10px 20px 20px 59px; */
+}
+    
+
+.linkNavigate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.backToEditor{
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    /* color: #003580; */
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    background-color: #FAF9F6;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.share {
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    /* color: #003580; */
+    color: #FAF9F6;;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.card {
+   
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1024px;
+    padding: 10px 0px;
+    position: absolute;
+    border: 3px solid #febb02;
+    border-radius: 5px;
+    margin-top: 68px;
+}
+
+
+
+
+/* container  */
+
+
+.mobilePrevContainer {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px; 
+     width: 400px;
+    /* border: 1px solid lightgray; */
+    /* margin: 20px 0px 100px 0px; */
+    background-color: white;
+    /* left: 10%; */
+    position: fixed;
+    border-radius: 20px;
+    padding: 30px;
+    top: 23%;
+
+
+}
+
+
+.custPrevInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    height: 200px;
+}
+
+.imgContainer{
+    background-color: white;
+}
+
+.profileImg {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid blueviolet;
+}
+
+.nameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+   
+}
+
+.Name {
+    background-color: white;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.userEmail {
+    color: #808080;
+    background-color: white;
+    font-size: 13px; 
+}
+
+.linkButtons {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gitBtnDiv {
+   
+    background-color: black;
+    color: white;
+    width: 150%;
+    gap: 9px;
+    padding: 8px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.gitIcon {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+   
+}
+
+.git {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border: none;
+    font-weight: 200;
+}
+
+.ytBtnDiv  {
+
+    background-color: #CC0000;
+    color: white;
+    width: 150%;
+    gap: 9px;
+    padding: 8px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.ytIcon {
+    color: white;
+    background-color: #CC0000;
+    font-size: 16px;
+    font-weight: 4;
+   
+}
+
+.ytube{
+    background-color: #CC0000;
+    color: white;
+    font-size: 12px;
+    border: none;
+    font-weight: 400;
+}
+
+.linBtnDiv {
+   
+   
+    color: white;
+    width: 150%;
+    gap: 9px;
+    padding: 8px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.linBtnDiv {
+   
+    background-color: #0A66C2;
+    color: white;
+    width: 150%;
+    gap: 9px;
+    padding: 8px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.linBtn{
+    background-color: #0A66C2;
+    color: white;
+    font-size: 12px;
+    border: none;
+    font-weight: 400;
+}
+
+.linIcon {
+    color: white;
+    background-color: #0A66C2;
+    font-size: 16px;
+   font-weight: 400;
+}
+
+.rightArrowYoutube{
+    background-color: #CC0000;
+        font-size: 18px;
+        position: relative;  
+        left: 40%;
+    }
+
+    .rightArrowlinkedIn{
+        background-color: #0A66C2;
+            font-size: 18px;
+            position: relative;  
+            left: 40%;
+        }
+
+        .rightArrowGit{
+            background-color: black;
+                font-size: 18px;
+                position: relative;  
+                left: 48%;
+            }
+
+
+/* media queries  */
+
+@media screen and (max-width: 600px) {
+
+
+	
+    .mobilePrevContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 550px;
+        width: 300px;
+        /* border: 1px solid lightgray; */
+        /* margin: 20px 0px 100px 0px; */
+        background-color: white;
+        /* left: 10%; */
+        position: fixed;
+        border-radius: 20px;
+        padding: 30px;
+        top: 28%;
+    }
+
+}

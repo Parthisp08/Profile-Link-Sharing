@@ -1,0 +1,581 @@
+.container {
+   
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    background-color: white;
+    height: 600px;
+    min-width: 80%;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    left: 10%;
+    gap: 20px;
+  
+}
+
+.mobileContainer {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 400px;
+    border: 1px solid lightgray;
+    /* margin: 20px 0px 0px 0px; */
+    background-color: white;
+    /* left: 10%; */
+    /* position: fixed; */
+    border-radius: 20px;
+    padding: 30px;
+
+
+}
+
+
+.custInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    height: 200px;
+}
+
+.imgContainer{
+    background-color: white;
+}
+
+.profileImg {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid blueviolet;
+}
+
+.nameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+   
+}
+
+.Name {
+    background-color: white;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.userEmail {
+    color: #808080;
+    background-color: white;
+    font-size: 13px; 
+}
+
+.linkButtons {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gitBtnDiv {
+   
+    background-color: black;
+    color: white;
+    width: 150%;
+    gap: 9px;
+    padding: 8px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.gitIcon {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+   
+}
+
+.git {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border: none;
+    font-weight: 200;
+}
+
+.ytBtnDiv  {
+
+    background-color: #CC0000;
+    color: white;
+    width: 150%;
+    gap: 9px;
+    padding: 8px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.ytIcon {
+    color: white;
+    background-color: #CC0000;
+    font-size: 16px;
+    font-weight: 4;
+   
+}
+
+.ytube{
+    background-color: #CC0000;
+    color: white;
+    font-size: 12px;
+    border: none;
+    font-weight: 400;
+}
+
+.linBtnDiv {
+   
+   
+    color: white;
+    width: 150%;
+    gap: 9px;
+    padding: 8px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.linBtnDiv {
+   
+    background-color: #0A66C2;
+    color: white;
+    width: 150%;
+    gap: 9px;
+    padding: 8px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.linBtn{
+    background-color: #0A66C2;
+    color: white;
+    font-size: 12px;
+    border: none;
+    font-weight: 400;
+}
+
+.linIcon {
+    color: white;
+    background-color: #0A66C2;
+    font-size: 16px;
+   font-weight: 400;
+}
+
+.rightArrowYoutube{
+    background-color: #CC0000;
+        font-size: 18px;
+        position: relative;  
+        left: 40%;
+    }
+
+    .rightArrowlinkedIn{
+        background-color: #0A66C2;
+            font-size: 18px;
+            position: relative;  
+            left: 40%;
+        }
+
+        .rightArrowGit{
+            background-color: black;
+                font-size: 18px;
+                position: relative;  
+                left: 48%;
+            }
+
+
+/* custom link design */
+
+
+
+.customLinkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 600px;
+    border: 1px solid lightgray;
+    /* margin: 20px 0px 0px 0px; */
+    background-color: white;
+    /* left: 10%; */
+    /* position: fixed; */
+    border-radius: 20px;
+    /* padding: 30px 85px; */
+    right: 10%;
+
+}
+
+
+
+.customLinkItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* right: 24%; */
+    /* position: relative; */
+    background-color: white;
+    margin: 20px;
+    position: relative;
+    /* position: absolute; */
+    top: 2%;
+    width: 100%;
+}
+
+.profileDesc {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -3%;
+    left: 1%;
+}
+
+.personalTxt{
+    font-size: 22px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.description{
+font-size: 15px;
+background-color: white;
+color: #808080;
+}
+
+
+.profilePicture {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FAF9F6;
+    height: 150px;
+    /* position: fixed; */
+    top: 26%;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+margin-top: 50px;
+}
+
+.profileImgSelect{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: none;
+    right: 38%;
+    position: absolute;
+}
+
+.profilelabel{
+font-size: 15px;
+color: #808080;
+}
+
+.imgNote{
+    font-size: 12px;
+    font-weight: 300;
+    color: #808080;
+    width: 150px;
+}
+
+.userDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF9F6;
+    height: 150px;
+    /* position: fixed; */
+    top: 43%;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
+}
+
+.input1, .input2, .input3 {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    width: 100%;
+}
+
+
+.fnameLbl,.lnameLbl, .emailLbl{
+    font-size: 15px;
+    color: #808080;
+
+
+}
+
+.fnameInput {
+    width: 50%;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    /* left: 41%; */
+    right: 10%;
+}
+
+.lnameInput {
+    width: 50%;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    /* left: 41%; */
+    right: 10%;
+}
+
+.emailInput {
+    width: 50%;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    /* left: 41%; */
+    right: 10%;
+}
+
+
+.saveBtn {
+    width: 100px;
+    color: white;
+    background-color: blueviolet;
+    font-size: 14px;
+    font-weight: 300;
+    bottom: 22rem;
+    /* position: fixed; */
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    margin: 35%;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+}
+
+
+.input1> input:focus {
+    outline: red;
+  }
+
+
+  /* media queries */
+
+  @media screen and (max-width: 768px) {
+
+    .mobileContainer  {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+
+.container {
+   
+    /* background-color: lightgray; */
+    display: flex;
+    /* grid-template-columns: auto auto; */
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0pxpx;
+    background-color: white;
+    height: 550px;
+    border: none;
+    border-radius: 20px;
+    /* padding: 20px; */
+    position: absolute;
+    left: 4%;
+    /* gap: 20px; */
+    width: 92%;
+    /* min-width: 81%; */
+    right: 10%;
+  
+}
+
+.customLinkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 400px;
+    border: 1px solid lightgray;
+    margin: 0px;
+    background-color: white;
+    /* left: 10%; */
+    /* position: fixed; */
+    border-radius: 20px;
+    padding: 0px 0px;
+    right: 10%;
+
+}
+.customLinkItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* right: 24%; */
+    /* position: relative; */
+    background-color: white;
+    margin: 7px;
+    position: relative;
+    /* position: absolute; */
+    top: 2%;
+    width: 100%;
+}
+    
+
+
+
+
+.personalTxt {
+    font-size: 17px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.description {
+    font-size: 13px;
+    background-color: white;
+    color: #808080;
+}
+
+.profilePicture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF9F6;
+    height: 184px;
+    /* position: fixed; */
+    top: 26%;
+    width: 100%;
+    /* padding: 20px; */
+    border: none;
+    border-radius: 10px;
+    /* margin-top: 21px; */
+    margin: 0px;
+    flex-direction: column;
+    /* padding: 78px; */
+}
+
+
+
+
+.profilelabel {
+    font-size: 14px;
+    color: #808080;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+
+.profileDesc {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -22%;
+    left: 1%;
+}
+
+
+.profileImgSelect {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: none;
+    /* right: 38%; */
+    /* position: absolute; */
+    /* top: 49px; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imgNote {
+    font-size: 11px;
+    font-weight: 300;
+    color: #808080;
+    width: 90%;
+    position: absolute;
+    top: 42%;
+    left: 10px;
+}
+
+.hideSaveBtn {
+    display: none;
+}
+
+.saveBtn {
+    
+        color: white;
+        background-color: blueviolet;
+        font-size: 14px;
+        font-weight: 300;
+        bottom: 10%;
+        /* position: fixed; */
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        margin: -25px 0px -79px 0px;
+    
+}
+    .mobileContainer  {
+        display: none;
+    }
+  
+
+  }

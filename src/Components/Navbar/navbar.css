@@ -1,0 +1,154 @@
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContainer {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap:wrap; */
+    margin: 20px 0px 0px 0px;
+    background-color: white;
+    height: 50px;
+    width: 80%;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+   
+.logo, .link, .profile{
+    display: flex;
+    align-items: center;
+    gap:  0px 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.logoIcon {
+    font-size: 25px;
+    background-color: blueviolet;
+    font-weight: 300;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.logo>span{
+    font-weight: 500;
+    font-size: 25px;
+    background-color: white;
+}
+
+/* links */
+
+.linkIcon, .profileIcon {
+    font-size: 17px;
+    background-color: white;
+    color: #808080;
+    font-weight: 500;
+}
+
+.previewIcon{
+    display: none;
+}
+
+.linksBtn, .proDetailsBtn {
+   
+    color: #808080;
+    font-size: 17px;
+    background-color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.previewBtn {
+    font-size: 17px;
+    background-color: white;
+    border: 1px solid blueviolet;
+    font-weight: 500;
+    color: blueviolet;
+    padding: 4px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.link.active {
+    border: none;
+    border-radius: 5px;
+    padding: 4px 12px;
+    background-color: #f7eaff;
+    color: blueviolet;
+} 
+
+.linkIcon.active {
+    background-color: #f7eaff;
+    color: blueviolet;
+}
+
+.linksBtn.active {
+    background-color: #f7eaff;
+    color: blueviolet;
+}
+
+
+@media screen and (max-width: 600px) { 
+
+    .navContainer {
+  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-wrap:wrap; */
+        margin: 20px 0px 0px 0px;
+        background-color: white;
+        height: 50px;
+        width: 92%;
+        border: none;
+        border-radius: 20px;
+        padding: 20px;
+    
+    }
+    .logo>span{
+        display: none;
+    }
+
+    .linksBtn{
+        display: none;
+    }
+
+    .proDetailsBtn{
+              display: none;
+    }
+
+    .previewBtn{
+           display: none;   
+    }
+
+    .previewIcon 
+        {
+            display: block;
+            font-size: 20px;
+            background-color: white;
+            color: blueviolet;
+            font-weight: bold;
+            border: 2px solid blueviolet;
+            padding: 2px;
+            border-radius: 5px;
+            height: 30px;
+            width: 40px;
+        }
+    
+        .linkIcon, .profileIcon {
+            font-size: 20px;
+            background-color: white;
+            color: #808080;
+            font-weight: 800;
+        }
+}

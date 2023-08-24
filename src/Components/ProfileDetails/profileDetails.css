@@ -1,0 +1,15 @@
+
+.saveBtn {
+    
+    color: white;
+    background-color: blueviolet;
+    font-size: 14px;
+    font-weight: 300;
+    bottom: 10%;
+    /* position: fixed; */
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: -25px 0px -79px 0px;
+
+}
